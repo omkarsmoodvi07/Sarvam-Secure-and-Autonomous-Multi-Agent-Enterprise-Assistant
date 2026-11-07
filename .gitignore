@@ -1,8 +1,16 @@
 .venv/
+venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
 node_modules/
 frontend/dist/assets/
 runtime/uploads/*
